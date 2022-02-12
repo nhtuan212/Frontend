@@ -1,0 +1,14 @@
+<button mat-button [matMenuTriggerFor]="gameMenu">Trò chơi</button>
+<mat-menu #gameMenu="matMenu" yPosition="above">
+  <a mat-menu-item>Item 1</a>
+  <a mat-menu-item>Item 2</a>
+</mat-menu>
+
+<button mat-button [matMenuTriggerFor]="generationMenu">Thế hệ</button>
+<mat-menu #generationMenu="matMenu" yPosition="above">
+  <a mat-menu-item>Item 1</a>
+  <a mat-menu-item>Item 2</a>
+</mat-menu>
+
+<a mat-button>Vị trí</a>
+<a mat-button>Mặt hàng</a>
