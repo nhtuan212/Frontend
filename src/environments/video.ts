@@ -2,7 +2,7 @@ export interface video {
     id  : number;
     name: string;
     link: number;
-}
+}s
 export const videoArray = [
     {
         id  : 1,
