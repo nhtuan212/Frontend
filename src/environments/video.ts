@@ -3,7 +3,6 @@ export interface video {
     name: string;
     link: number;
 }
-asddas
 export const videoArray = [
     {
         id  : 1,
