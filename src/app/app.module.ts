@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
+import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { CarouselModule } from 'ngx-owl-carousel-o';
 
 import { MaterialExampleModule } from '../material.module';
 import { AppRoutingModule } from './app-routing.module';
@@ -23,6 +25,8 @@ import { IndexComponent } from './index/index.component';
     BrowserModule,
     MaterialExampleModule,
     AppRoutingModule,
+    CarouselModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
