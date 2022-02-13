@@ -3,6 +3,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { CarouselModule } from 'ngx-owl-carousel-o';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 import { MaterialExampleModule } from '../material.module';
 import { AppRoutingModule } from './app-routing.module';
@@ -11,6 +12,7 @@ import { HeaderComponent } from './header/header.component';
 import { MenuComponent } from './menu/menu.component';
 import { FooterComponent } from './footer/footer.component';
 import { IndexComponent } from './index/index.component';
+import { PokemonListItemsComponent } from './pokemon-list-items/pokemon-list-items.component';
 
 @NgModule({
   declarations: [
@@ -19,6 +21,7 @@ import { IndexComponent } from './index/index.component';
     MenuComponent,
     FooterComponent,
     IndexComponent,
+    PokemonListItemsComponent,
   ],
   imports: [
     BrowserAnimationsModule,
@@ -27,6 +30,7 @@ import { IndexComponent } from './index/index.component';
     AppRoutingModule,
     CarouselModule,
     HttpClientModule,
+    NgbModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

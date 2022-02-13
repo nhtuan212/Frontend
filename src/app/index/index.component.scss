@@ -1,0 +1,9 @@
+.mat-row:hover
+{
+    border: 1px solid #ff0000;
+    cursor: pointer;
+}
+.mat-row:nth-child(even)
+{
+    background: #eee;
+}
